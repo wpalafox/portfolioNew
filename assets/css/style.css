@@ -1,0 +1,56 @@
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+
+.main-container {
+  flex: 1; 
+}
+
+.footer {
+  background: lightgrey;
+}
+
+#logos {
+	display: flex;
+	flex-direction: row;
+  	justify-content: flex-end;
+}
+
+
+.btn-danger{
+	
+	 @include button-variant(red, white, blue); 
+
+
+}
+
+.btn-primary{
+  
+  background-color: #1E90FF;
+  text-align: center;
+  font-size: 28px;
+  padding: 15px;
+  width: 175px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+
+
+}
+
+.btn-danger{
+  
+  background-color: #9932CC;
+  text-align: center;
+  font-size: 28px;
+  padding: 15px;
+  width: 175px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+
+
+}
